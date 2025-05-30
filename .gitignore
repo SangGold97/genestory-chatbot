@@ -1,0 +1,12 @@
+*/__pycache__
+*/*/__pycache__
+logs/*
+
+# models
+models/embedding/*/
+models/llm/*/
+
+# env
+.env
+
+
