@@ -9,4 +9,6 @@ models/llm/*/
 # env
 .env
 
+.pids
+
 

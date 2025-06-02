@@ -41,15 +41,15 @@ wait_for_service() {
     return 1
 }
 
-# Check if virtual environment exists
-if [ ! -d "venv" ]; then
-    echo "❌ Virtual environment not found. Please run setup.sh first."
-    exit 1
-fi
+# # Check if virtual environment exists
+# if [ ! -d "venv" ]; then
+#     echo "❌ Virtual environment not found. Please run setup.sh first."
+#     exit 1
+# fi
 
-# Activate virtual environment
-echo "🔄 Activating virtual environment..."
-source venv/bin/activate
+# # Activate virtual environment
+# echo "🔄 Activating virtual environment..."
+# source venv/bin/activate
 
 # Create logs directory
 mkdir -p logs
